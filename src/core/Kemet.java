@@ -3,10 +3,10 @@ import java.io.*;
 
 public class Kemet {
 	
-	private int cycle;
-	private BufferedReader br;
-	
-	public static void main(String[] args)throws IOException {
+	public static void main(String[] args) throws IOException {
 		
+		System.out.print("¿De qué tamaño desea la pirámide? ");
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		int cycle=Integer.parseInt(br.readLine());
 	}
 }
