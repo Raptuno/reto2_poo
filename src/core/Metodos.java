@@ -10,6 +10,11 @@ public class Metodos {
 		return y;
 	}
 	public void pyramidPrinter(int y) {
-		
+		for(int i=0; i>y; i++) {
+			for(int j=(y-i); j>1; j++) {
+				System.out.println("*");
+			}
+			System.out.println();
+		}
 	}
 }
